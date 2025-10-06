@@ -6,7 +6,12 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		2F937D7B2E93E9D0006798B7 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F937D7A2E93E9D0006798B7 /* Meal.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		2F937D7A2E93E9D0006798B7 /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
 		937A1F602E8AC8E80061A69D /* lunchBox2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lunchBox2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -32,6 +37,7 @@
 		937A1F572E8AC8E80061A69D = {
 			isa = PBXGroup;
 			children = (
+				2F937D7A2E93E9D0006798B7 /* Meal.swift */,
 				937A1F622E8AC8E80061A69D /* lunchBox2 */,
 				937A1F612E8AC8E80061A69D /* Products */,
 			);
@@ -119,6 +125,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F937D7B2E93E9D0006798B7 /* Meal.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
